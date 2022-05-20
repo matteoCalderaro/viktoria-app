@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+* {
+  font-family: "Indie Flower", cursive;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 100%;
+}
+
+.timer-container {
+  background-image: url('https://wips.plug.it/cips/initalia.virgilio.it/cms/2021/02/lago-di-garda.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+}
+
+.timer {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.timer div:first-child {
+  text-align: center;
+}
+
+.timer div:first-child p {
+  color: white;
+}
+
+.counter {
+  border: 5px solid #fff;
+  border-radius: 20px;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 20px 40px;
+  text-align: center;
+  margin-right:20px;
+  margin-left:20px;
+
+}
+.timer p:first-child,
+.counter span {
+  font-size: 50px;
+}
+.text-intro {
+  padding: 0 20px;
+  color: white;
+  max-width: 540px;
+  font-size: 25px;
+}
+
+.timer h2 {
+  font-size: 3em;
+}
+/* .timer div:first-child p {
+  font-size: 1.5em;
+} */
+.subtitle{
+    display:flex;
+    justify-content:center
+}
+.subtitle-icon{
+margin-left:10px;
+
+}
+
+.btn {
+  background-color: transparent;
+  padding: 3px 50px;
+  color: white;
+  font-size: 30px;
+}
+.diary-button {
+  margin-top: 20px;
+  border: none;
+  color: white;
+  font-size: 30px;
+  background-color: transparent;
+
+  display: flex;
+  align-items: center;
+}
+.diary-button-img {
+  width: 55px;
+  margin-right: 8px;
+}
+.span {
+  margin: 0 10px;
+  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 1.5px;
+}
+.btn-intro {
+  margin-top: 20px;
+  border: none;
+  color: white;
+  font-size: 30px;
+  background-color: transparent;
+
+  display: flex;
+  align-items: center;
+}
+
+/* transition */
+
+.slide-horizontal-enter {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+.slide-horizontal-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 300ms;
+}
+
+.slide-horizontal-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-horizontal-exit-active {
+  opacity: 0;
+  transition: all 300ms;
+  transform: translateX(-20px);
+}
+
+/* slide-vertical */
+
+.slide-vertical-enter,
+.slide-vertical-appear {
+  opacity: 0;
+  transform: translateY(-400px);
+}
+
+.slide-vertical-enter-active,
+.slide-vertical-appear-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 1000ms;
+}
+
+.slide-vertical-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slide-vertical-exit-active {
+  opacity: 0;
+  transition: all 1000ms;
+  transform: translateY(-400px);
+}
+/* slide-top */
+
+.slide-top-enter,
+.slide-top-appear {
+  opacity: 0;
+  transform: translateY(400px);
+}
+
+.slide-top-enter-active,
+.slide-top-appear-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 1000ms;
+}
+
+.slide-top-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slide-top-exit-active {
+  opacity: 0;
+  transition: all 1000ms;
+  transform: translateY(400px);
+}
+.todo-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
+.todoHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+
+  padding-top: 30px;
+}
+.todo-box {
+  font-size: 30px;
+  color: white;
+  margin-top: 50px;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+.cazzo {
+  font-size: 40px;
+  height: 10px;
+}
+@media screen and (max-width: 480px) {
+    .counter .todo-box {
+      margin-left: 2em;
+      margin-right: 2em;
+      padding: 20px 10px;
+    }
+  }
+
+
+  .App-logo {
+    height: 7vmin;
+    pointer-events: none;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 3s linear;
+    }
+  }
+@keyframes App-logo-spin {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
