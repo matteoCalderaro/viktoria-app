@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/viktoria-app/static/css/main.9ab78e2e.css",
-    "main.js": "/viktoria-app/static/js/main.26faec7a.js",
-    "static/media/rosa.svg": "/viktoria-app/static/media/rosa.0fbdcb2aeea8280e49b560422e435712.svg",
+    "main.js": "/viktoria-app/static/js/main.7f8bf12d.js",
+    "static/media/rosa.svg": "/viktoria-app/static/media/rosa.9eb3fbf1128aef6514992bdb3b1d46cb.svg",
     "index.html": "/viktoria-app/index.html",
     "main.9ab78e2e.css.map": "/viktoria-app/static/css/main.9ab78e2e.css.map",
-    "main.26faec7a.js.map": "/viktoria-app/static/js/main.26faec7a.js.map"
+    "main.7f8bf12d.js.map": "/viktoria-app/static/js/main.7f8bf12d.js.map"
   },
   "entrypoints": [
     "static/css/main.9ab78e2e.css",
-    "static/js/main.26faec7a.js"
+    "static/js/main.7f8bf12d.js"
   ]
 }
