@@ -12,14 +12,14 @@ export default function About(props) {
       },
       {
         id: 2,
-        name: "Parlare in italiano il più possile (ma non sempre)",
+        name: "Parlare in italiano il più possibile (ma non sempre)",
         isComplete: true,
         isEditing: false
       },
 
     {
       id: 5,
-      name: "Mai bere il capuccino dopo lo 11:00 (ordinare Aperol Spritz)",
+      name: "Mai bere il capuccino dopo le 11:00 (ordinare Aperol Spritz)",
       isComplete: false,
       isEditing: false
     },
