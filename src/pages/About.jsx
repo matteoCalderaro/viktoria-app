@@ -4,12 +4,7 @@ import { useState } from "react";
 
 export default function About(props) {
   const [todos] = useState([
-    {
-        id: 1,
-        name: "Anche la pizza con l'ananas non va bene",
-        isComplete: false,
-        isEditing: false
-    },
+
     {
       id: 2,
       name: "Mai bere il capuccino dopo lo 11:00 (ordinare Aperol Spritz)",
