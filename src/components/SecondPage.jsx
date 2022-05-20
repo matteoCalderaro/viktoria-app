@@ -39,7 +39,8 @@ function SecondPage(props) {
       <div>
         <h2>Countdown Timer</h2>
         <div className="subtitle">
-        <h3>Countdown to a really special day</h3> <img  src={rosa} className="App-logo subtitle-icon" alt="logo" />
+            <h3>Countdown to a really special day</h3>
+            <img  src={rosa} className="App-logo subtitle-icon" alt="logo" />
 
         </div>
 

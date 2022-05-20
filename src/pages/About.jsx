@@ -6,13 +6,25 @@ export default function About(props) {
   const [todos] = useState([
     {
       id: 1,
-      name: "Matteo",
+      name: "Mai bere il capuccino dopo lo 11:00",
       isComplete: false,
       isEditing: false
     },
     {
       id: 2,
-      name: "Matteo",
+      name: "Non cenare mai prima delle 19:30",
+      isComplete: true,
+      isEditing: false
+    },
+    {
+      id: 2,
+      name: "Non farsi rubare la bicicletta",
+      isComplete: true,
+      isEditing: false
+    },
+    {
+      id: 2,
+      name: "........................",
       isComplete: true,
       isEditing: false
     }

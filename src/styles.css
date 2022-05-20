@@ -69,7 +69,8 @@ body {
 } */
 .subtitle{
     display:flex;
-    justify-content:center
+    justify-content:center;
+    align-items:center
 }
 .subtitle-icon{
 margin-left:10px;
