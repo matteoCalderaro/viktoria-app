@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/viktoria-app/static/css/main.52455215.css",
+    "main.js": "/viktoria-app/static/js/main.3cb72699.js",
+    "static/media/rosa.svg": "/viktoria-app/static/media/rosa.0fbdcb2aeea8280e49b560422e435712.svg",
+    "index.html": "/viktoria-app/index.html",
+    "main.52455215.css.map": "/viktoria-app/static/css/main.52455215.css.map",
+    "main.3cb72699.js.map": "/viktoria-app/static/js/main.3cb72699.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52455215.css",
+    "static/js/main.3cb72699.js"
+  ]
+}
