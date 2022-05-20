@@ -4,6 +4,8 @@ import { CSSTransition } from "react-transition-group";
 function Intro(props) {
   return (
     <>
+
+
       <CSSTransition in={true} timeout={1000} classNames="slide-top" appear>
         <div className="text-intro">
           Ein plötzlich auftretender starker Wind auf dem Gardasee zwingt Johann
@@ -13,6 +15,7 @@ function Intro(props) {
           Schloss.&#128580;
         </div>
       </CSSTransition>
+
 
       <CSSTransition
         in={true}
@@ -25,6 +28,7 @@ function Intro(props) {
           <span>Give Me a try</span>
         </button>
       </CSSTransition>
+
     </>
   );
 }

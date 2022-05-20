@@ -10,6 +10,10 @@ export default function Root() {
   function toggleApp() {
     return setTodosVisible((prev) => !prev);
   }
+  function toggleState() {
+    return setTodosVisible((prev) => !prev);
+  }
+
   return (
     <>
 
@@ -18,7 +22,7 @@ export default function Root() {
         {!todosVisible ? (
           <App toggleApp={toggleApp} />
         ) : (
-          <About toggleApp={toggleApp} />
+          <About toggleState={toggleState} />
         )}
       </section>
 
