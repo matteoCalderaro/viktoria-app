@@ -1,13 +1,12 @@
 
 import "./styles.css";
 
-import { useState, useRef, useEffect } from "react";
+import { useState} from "react";
 import Intro from "./components/Intro";
 import SecondPage from "./components/SecondPage";
 import {
   CSSTransition,
-  SwitchTransition,
-  TransitionGroup
+  SwitchTransition
 } from "react-transition-group";
 
 
