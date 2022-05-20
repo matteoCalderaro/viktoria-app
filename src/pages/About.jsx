@@ -12,7 +12,7 @@ export default function About(props) {
     },
     {
       id: 2,
-      name: "Viktoria",
+      name: "Matteo",
       isComplete: true,
       isEditing: false
     }
